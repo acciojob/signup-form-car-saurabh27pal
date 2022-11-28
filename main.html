@@ -9,49 +9,62 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<label for="name">Name</label>
-		<input
-		  id="name"
-		  type="text"
-		  placeholder="Enter Name here"
-		  name="name"
-		  required
-		/>
-  
-		<label for="email">Email</label>
-		<input
-		  id="email"
-		  type="email"
-		  placeholder="Enter Email here"
-		  name="email"
-		  required
-		/>
-  
-		<label for="gender_m">Male</label>
-		<input type="radio" id="gender_m" name="gender" required />
-		<label for="gender_f">Female</label>
-		<input type="radio" id="gender_f" name="gender" required />
-		<!-- <label for="gender_others">Others</label>
-		<input type="radio" id="gender_others" name="gender" required> -->
-  
-		<label for="Car">Car Brands :</label>
-		<select name="Car" id="Car">
-		  <option name="BMW" value="BMW">BMW</option>
-		  <option name="Audi" value="Audi">Audi</option>
-		  <option name="Mercedez" value="Mercedez">Mercedez</option>
+
+		<label for="name"> 
+		Name  
+		<input id="name" type="text" value="Dinesh Kumar" required> </label>
+		<br>
+		<br>
+
+		<label for="email"> 
+		Email  
+		<input id = "email"	type="email" value="abc1@gmail.com" required>
+		</label>
+		<br>
+		<br>
+
+		<label for="gender">
+		Gender 
+		<input id="gender" type="radio" name="gender" value="Male" required> Male
+		<input id="gender" type="radio" name="gender" value="Female" required> Female
+		</label>
+		<br>
+		<br>
+
+		<label for="cars">
+		Car Brands 
+		<select id="cars">
+		<option value="BMW">BMW</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez">Mercedez</option>
 		</select>
-  
-		<label for="age">Age :</label>
-		<input id="age" type="number" required min="0" />
-  
-		<label for="dob">DOB :</label>
-		<input required name="dob" id="dob" type="date" />
-  
-		<label for="password">Password :</label>
-		<input required name="password" id="password" type="password" />
-  
-		<button type="submit">Submit</button>
-	  </form>
+		</label>
+		<br>
+		<br>
+
+		<label for="age">
+		Age 
+		<input id="age" type="date"	value="01-01-2000" required>
+		</label>
+		<br>
+		<br>
+
+		<label for="dob">
+		dob 
+		<input id="dob" type="number" value="22" required>
+		</label>
+		<br>
+		<br>
+
+		<label for="password">
+		Password
+		<input id="password" type="password" value="daskjfk223" required>
+		</label>
+		<br>
+		<br>
+
+	<button type="submit">Submit</button>	
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
